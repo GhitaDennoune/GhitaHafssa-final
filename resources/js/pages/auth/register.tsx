@@ -10,6 +10,7 @@ import { login } from '@/routes';
 import { store } from '@/routes/register';
 
 export default function Register() {
+    
     return (
         <>
             <Head title="Register" />
