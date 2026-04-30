@@ -1,4 +1,7 @@
 @import 'tailwindcss';
+/* @tailwind base; */
+/* @tailwind components; */
+@tailwind utilities;
 
 @import 'tw-animate-css';
 
@@ -6,6 +9,29 @@
 @source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
 
 @custom-variant dark (&:is(.dark *));
+
+body {
+    background-color: var(--primary-dark);
+    color: white;
+    font-family: 'DM Sans', sans-serif;
+}
+
+
+
+
+:root {
+    --primary-dark: #1C1C1B;
+    --gold-main: #9E8557;
+    --gold-light: #D9C38F;
+    --card-bg: #2A2926;
+    --text-muted: #BFBFBF;
+}
+
+body {
+    background-color: var(--primary-dark);
+    color: white;
+    font-family: 'DM Sans', sans-serif;
+}
 
 @theme {
     --font-sans:
